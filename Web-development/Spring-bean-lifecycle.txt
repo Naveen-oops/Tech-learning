@@ -1,0 +1,18 @@
+Spring core - bean lifecycle:
+
+ApplicationContext
+Standalone applications:
+
+@postconstruct
+@predestroy
+
+context.close() or registerShutdownHook()
+
+CommonAnnotationBeanPostProcessor
+
+"Implement spring life cycle methods in a simple JDBC application” this might be a good question for spring core interview to test candidates spring core knowledge and we will be doing it today in multiple ways. There are multiple ways to configure bean life cycles methods in your spring application as described below.
+1.Using spring core annotations (@PostConstruct and @PreDestroy)
+2.Using spring XML configuration(init-method and destroy-method)
+3.Implementing interfaces like Iinitializingbean and disposablebean
+
+
