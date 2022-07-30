@@ -1,0 +1,21 @@
+Spring IOC:
+IOC stands for Inversion of Control. Instead of we manually creating and maintaining objects, we let the spring framework to create and maintain the java objects.
+
+Spring Bean:
+In Spring terminology, The java objects that are stored in IOC container are called beans.
+
+IOC Container:
+
+Interfaces:
+1)BeanFactory
+2)ApplicationContext(Advanced than beanFactory - more popular and widely used)
+
+Implementations:
+1)AbstractApplicationContext
+2)ClassPathXmlApplicationContext
+3)AnnotationConfigApplicationContext
+
+Ways to learn and implement Spring core concepts:
+1) XML way
+2) Java way (using Configuration classes , java annotations & properties file)
+
